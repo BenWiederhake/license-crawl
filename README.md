@@ -13,7 +13,7 @@ So I made this repo, to have the license texts available as files.
 ## Table of Contents
 
 - [Usage](#usage)
-- [Why not X?](#why-not-x)
+- [FAQ](#faq)
 - [TODOs](#todos)
 - [NOTDOs](#notdos)
 - [Contribute](#contribute)
@@ -54,7 +54,7 @@ of this software dedicate any and all copyright interest in the
 software to the public domain. We make this dedication for the benefit
 ```
 
-## Why not X?
+## FAQ
 
 ### Why not just use `/usr/share/common-licenses/` ?
 
@@ -75,9 +75,20 @@ $ diff -su /usr/share/common-licenses/GPL-3 gnugpl3/LICENSE
 Also, it lacks the unlicense, which GitHub apparently recommends over CC0.
 I don't really know about the differences.
 
+### Don't you mean "crawler"?
+
+No.  There is no crawler.  Or rather, I *am* the crawler, and crawled these licenses by hand.
+
+This repository is the *result* of the crawling process.
+
+### What's with the `LICENSE.template` files?
+
+Apparently, these licenses require that you fill in your own data (year and name).
+That seems to be the only part that needs adaption.  However, it should be fairly
+obvious from the file name that *some* adaption is required.
+
 ## TODOs
 
-* Finish it for the basic licenses
 * Add all the other licenses from GitHub
 * Add some licenses not on GitHub?
 * Make it public
