@@ -3,12 +3,13 @@
 > GitHub's automatic licenses, as a repo, for your convenience.
 
 I usually create repos and gitignores myself, but then use GitHub's
-"create repository with a license" feature.
+"create repository with a license" feature, which means you have to
+merge somehow, which is ugly or a hassle or both.  Ugh.
 I have no idea why they thought it's a great idea that choosing a
 license is bound to repo creation, and cannot be done in the second or
 third commit.
 
-So I made this repo, to have the license texts available as files.
+I made this repo so I could have the license texts available as files.
 
 ## Table of Contents
 
